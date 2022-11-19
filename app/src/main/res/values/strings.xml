@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">footballworldcup</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- test application id -->
+    <string name="test_application">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!-- main application id -->
+    <string name="main_application">ca-app-pub-5113615350429592~8691987668</string>
+
+    <!-- test banner id-->
+    <string name="test_banner">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- main banner id-->
+    <string name="main_banner">ca-app-pub-5113615350429592/7727170606</string>
+
+
 </resources>

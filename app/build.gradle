@@ -46,4 +46,14 @@ dependencies {
 
     //My own toast library
     implementation 'com.github.nahian3832:toastmaker:1.0.0'
+
+    //ads implementation
+    implementation 'com.google.android.gms:play-services-ads:21.3.0'
+
+    // volley library
+    implementation 'com.android.volley:volley:1.2.1'
+
+    //picasso library
+    implementation 'com.squareup.picasso:picasso:2.8'
+
 }

@@ -40,6 +40,16 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+
+
+        <!-- test id enabled -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/test_application"/>
+
+
+
     </application>
 
 </manifest>
