@@ -4,11 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ProgressBar;
+
+import com.crisisstudio.trial1toastlibrary.toastmaker;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -36,9 +41,25 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                progressBar.setVisibility(View.GONE);
-                startActivity(new Intent(SplashActivity.this, MainActivity.class));
-                finish();
+                ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+                NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+
+
+                if ( networkInfo!=null &&  networkInfo.isConnected() ){
+
+                    progressBar.setVisibility(View.GONE);
+                    startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                    overridePendingTransition(R.anim.anim1, R.anim.anim2);
+                    finish();
+
+                } else {
+
+                    progressBar.setVisibility(View.GONE);
+                    toastmaker.newtoast(SplashActivity.this, "No Internet");
+
+                }
+
+
 
             }
         },2500);

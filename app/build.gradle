@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.rowdystudio.footballworldcup'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.rowdystudio.footballworldcup"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -36,4 +36,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+
+    //My own toast library
+    implementation 'com.github.nahian3832:toastmaker:1.0.0'
 }
