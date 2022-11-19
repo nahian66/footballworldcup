@@ -16,6 +16,13 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+
+    // viewbinding works for nav
+    buildFeatures{
+        viewBinding true
+    }
+
+
     buildTypes {
         release {
             minifyEnabled false
