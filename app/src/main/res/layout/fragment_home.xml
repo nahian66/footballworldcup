@@ -1,14 +1,2466 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment"
+    android:background="@color/dark_white">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Home" />
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        >
 
-</FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <!-- Group A starts -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group 'A'"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <!-- a1 a2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/qatar"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="A1"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="QATAR"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/ecuador"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="A2"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="ECUADOR"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+                <!-- a3 a4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/senegal"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="A3"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="SENEGAL"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/netherlands"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="A4"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="NETHERLANDS"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <!-- Group B starts -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group 'B'"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <!-- b1 b2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/england"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="B1"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="ENGLAND"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/iran"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="B2"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="ECUADOR"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+                <!-- b3 b4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/usa"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="B3"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="USA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/wales"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="B4"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="WALES"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <!-- Group C starts -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group 'C'"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <!-- c1 c2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/argentina"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="C1"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="ARGENTINA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/saudi_arabia"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="C2"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="SAUDI ARABIA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+                <!-- c3 c4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/mexico"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="C3"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="MEXICO"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/poland"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="C4"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="POLAND"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <!-- Group D starts -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group 'D'"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <!-- d1 d2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/france"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="d1"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="FRANCE"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/denmark"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="D2"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="DENMARK"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+                <!-- d3 d4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/tunisia"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="D3"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="TUNISIA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/australia"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="D4"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="AUSTRALIA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <!-- Group E starts -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group 'E'"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <!-- e1 e2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/spain"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="E1"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="SPAIN"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/germany"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="E2"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="GERMANY"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+                <!-- e3 e4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/japan"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="E3"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="JAPAN"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/costa_rica"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="E4"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="COSTA RICA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <!-- Group F starts -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group 'F'"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <!-- f1 f2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/belgium"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="F1"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="BELGIUM"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/canada"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="F2"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="CANADA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+                <!-- f3 f4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/morocco"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="F3"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="MOROCCO"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/croatia"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="F4"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="CROATIA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <!-- Group G starts -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group 'G'"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <!-- g1 g2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/brazil"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="G1"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="BRAZIL"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/serbia"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="G2"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="SERBIA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+                <!-- g3 g4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/switzerland"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="G3"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="SWITZERLAND"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/cameroon"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="G4"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="CAMEROON"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <!-- Group H starts -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Group 'H'"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="60dp"
+                >
+
+
+                <!-- a1 a2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/portugal"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="H1"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="PORTUGAL"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/ghana"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="H2"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="GHANA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+                <!-- a3 a4 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+                    <!-- qatar -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/uruguay"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="H3"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="URUGUAY"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- ecuador -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_weight="5"
+                        android:layout_marginRight="8dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="4dp"
+                        android:layout_gravity="center"
+                        >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="55dp"
+                                android:orientation="horizontal"
+                                android:weightSum="10"
+                                >
+
+                                <ImageView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="45dp"
+                                    android:src="@drawable/south_korea"
+                                    android:layout_margin="8dp"
+                                    />
+
+
+                                <TextView
+                                    android:layout_weight="5"
+                                    android:layout_width="80dp"
+                                    android:layout_height="55dp"
+                                    android:text="H4"
+                                    android:textColor="@color/black"
+                                    android:textSize="25sp"
+                                    android:textStyle="bold"
+                                    android:gravity="right|center"
+                                    android:paddingRight="10dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="SOUTH KOREA"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:textColor="@color/black"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="left"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
