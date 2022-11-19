@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/worldcup_trophy"
+        />
+
+    <item
+        android:id="@+id/matches"
+        android:title="Matches"
+        android:icon="@drawable/football"/>
+
+    <item
+        android:id="@+id/table"
+        android:title="Point Table"
+        android:icon="@drawable/bar_chart"
+        />
+
+
+
+</menu>
