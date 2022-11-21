@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/dark_white"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardElevation="4dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:weightSum="30"
+                >
+
+                <TextView
+                    android:id="@+id/grouptxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="group"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/datetxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="date"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/roundtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="round"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:weightSum="30"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/t1_flag"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/senegal"
+                    android:layout_weight="15"
+                    />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/t2_flag"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/senegal"
+                    android:layout_weight="15"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

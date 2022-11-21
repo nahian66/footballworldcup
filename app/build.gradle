@@ -56,4 +56,6 @@ dependencies {
     //picasso library
     implementation 'com.squareup.picasso:picasso:2.8'
 
+    //round image library
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }

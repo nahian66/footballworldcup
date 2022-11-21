@@ -999,7 +999,7 @@
                                     android:layout_weight="5"
                                     android:layout_width="80dp"
                                     android:layout_height="55dp"
-                                    android:text="d1"
+                                    android:text="D1"
                                     android:textColor="@color/black"
                                     android:textSize="25sp"
                                     android:textStyle="bold"
