@@ -30,7 +30,7 @@
         app:labelVisibilityMode="selected"
         app:menu="@menu/bottomnavitem"
         tools:visibility="visible"
-        android:layout_marginBottom="55dp"
+        android:layout_marginBottom="50dp"
         />
 
 

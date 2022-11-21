@@ -4,13 +4,18 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/dark_white"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
         >
 
 
@@ -21,6 +26,7 @@
             >
 
 
+            <!-- 1st row -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -32,7 +38,7 @@
                     android:id="@+id/grouptxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
-                    android:text="group"
+                    android:text="Group "
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:layout_weight="10"
@@ -45,7 +51,7 @@
                     android:id="@+id/datetxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
-                    android:text="date"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:layout_weight="10"
@@ -57,7 +63,7 @@
                     android:id="@+id/roundtxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
-                    android:text="round"
+                    android:text=""
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:layout_weight="10"
@@ -67,6 +73,7 @@
 
             </LinearLayout>
 
+            <!-- 2nd record -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -80,8 +87,23 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/senegal"
-                    android:layout_weight="15"
+                    android:layout_weight="10"
+                    android:layout_gravity="center"
                     />
+
+
+                <TextView
+                    android:id="@+id/goalList"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    />
+
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -89,7 +111,101 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/senegal"
-                    android:layout_weight="15"
+                    android:layout_weight="10"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <!-- 3rd row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:weightSum="30"
+                >
+
+                <TextView
+                    android:id="@+id/t1_name"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/match_time"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t2_name"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    android:paddingRight="10dp"
+                    />
+
+            </LinearLayout>
+
+            <!-- 3rd row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="30"
+                >
+
+
+                <TextView
+                    android:id="@+id/stadium_name"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:maxLines="2"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/teamWon"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
                     />
 
             </LinearLayout>
