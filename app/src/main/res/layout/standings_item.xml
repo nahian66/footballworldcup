@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_white">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <!-- 1st row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/grouptxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Group "
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    />
+
+            </LinearLayout>
+
+            <!-- 2nd row -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                >
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/t1_flag"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/senegal"
+                    android:layout_weight="20"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/mptxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="P"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/mwtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="W"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/mdtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="D"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/mltxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="L"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/gftxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GF"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/gatxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GA"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/gdtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GD"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/ptstxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="PT"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/roundtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+            </TableRow>
+
+
+            <!-- 3rd row -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                >
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/t1_flag"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/senegal"
+                    android:layout_weight="20"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/mptxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="P"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/mwtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="W"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/mdtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="D"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/mltxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="L"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/gftxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GF"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/gatxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GA"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/gdtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GD"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/ptstxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="PT"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/roundtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+            </TableRow>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
