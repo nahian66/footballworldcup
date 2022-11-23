@@ -10,7 +10,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="290dp"
         app:cardElevation="4dp"
         app:cardCornerRadius="8dp"
         android:layout_marginBottom="10dp"
@@ -55,14 +55,16 @@
 
 
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    xmlns:app="http://schemas.android.com/apk/res-auto"
-                    android:id="@+id/t1_flag"
+                <TextView
+                    android:id="@+id/tntxt"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/senegal"
+                    android:text="Team"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
                     android:layout_weight="20"
-                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
                     />
 
                 <TextView
@@ -200,7 +202,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/mptxt"
+                    android:id="@+id/t1mptxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:text="P"
@@ -213,7 +215,7 @@
 
 
                 <TextView
-                    android:id="@+id/mwtxt"
+                    android:id="@+id/t1mwtxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:text="W"
@@ -225,7 +227,7 @@
 
 
                 <TextView
-                    android:id="@+id/mdtxt"
+                    android:id="@+id/t1mdtxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:text="D"
@@ -238,7 +240,7 @@
 
 
                 <TextView
-                    android:id="@+id/mltxt"
+                    android:id="@+id/t1mltxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:text="L"
@@ -251,7 +253,7 @@
 
 
                 <TextView
-                    android:id="@+id/gftxt"
+                    android:id="@+id/t1gftxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:text="GF"
@@ -263,7 +265,7 @@
 
 
                 <TextView
-                    android:id="@+id/gatxt"
+                    android:id="@+id/t1gatxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:text="GA"
@@ -275,7 +277,7 @@
 
 
                 <TextView
-                    android:id="@+id/gdtxt"
+                    android:id="@+id/t1gdtxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:text="GD"
@@ -287,7 +289,7 @@
 
 
                 <TextView
-                    android:id="@+id/ptstxt"
+                    android:id="@+id/t1ptstxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:text="PT"
@@ -299,7 +301,406 @@
 
 
                 <TextView
-                    android:id="@+id/roundtxt"
+                    android:id="@+id/t1roundtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+            </TableRow>
+
+            <!-- 3rd row -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                >
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/t2_flag"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/senegal"
+                    android:layout_weight="20"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/t2mptxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="P"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t2mwtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="W"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t2mdtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="D"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t2mltxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="L"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t2gftxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GF"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t2gatxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GA"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t2gdtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GD"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t2ptstxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="PT"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t2roundtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+            </TableRow>
+
+            <!-- 3rd row -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                >
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/t3_flag"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/senegal"
+                    android:layout_weight="20"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/t3mptxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="P"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t3mwtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="W"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t3mdtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="D"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t3mltxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="L"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t3gftxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GF"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t3gatxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GA"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t3gdtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GD"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t3ptstxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="PT"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t3roundtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+            </TableRow>
+
+            <!-- 3rd row -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                >
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/t4_flag"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/senegal"
+                    android:layout_weight="20"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/t4mptxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="P"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t4mwtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="W"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t4mdtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="D"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t4mltxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="L"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="left|center"
+                    android:paddingLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t4gftxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GF"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t4gatxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GA"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t4gdtxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="GD"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t4ptstxt"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:text="PT"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    />
+
+
+                <TextView
+                    android:id="@+id/t4roundtxt"
                     android:layout_width="1dp"
                     android:layout_height="match_parent"
                     android:text=""
