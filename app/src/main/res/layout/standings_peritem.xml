@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/t1_flag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/senegal"
+        android:layout_weight="20"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/t1mptxt"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text="P"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_weight="10"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/t1mwtxt"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text="W"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_weight="10"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/t1mdtxt"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text="D"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_weight="10"
+        android:gravity="right|center"
+        android:paddingRight="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/t1mltxt"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text="L"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_weight="10"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/t1gftxt"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text="GF"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_weight="10"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/t1gatxt"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text="GA"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_weight="10"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/t1gdtxt"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text="GD"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_weight="10"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/t1ptstxt"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text="PT"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_weight="10"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/t1roundtxt"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_weight="10"
+        android:gravity="right|center"
+        android:paddingRight="10dp"
+        />
+
+</TableRow>

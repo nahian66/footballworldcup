@@ -181,7 +181,8 @@
             </TableRow>
 
 
-            <!-- 3rd row -->
+            <!-- just hide these code
+
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -314,7 +315,7 @@
 
             </TableRow>
 
-            <!-- 3rd row -->
+
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -447,7 +448,7 @@
 
             </TableRow>
 
-            <!-- 3rd row -->
+
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -580,7 +581,7 @@
 
             </TableRow>
 
-            <!-- 3rd row -->
+
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -712,6 +713,7 @@
                     />
 
             </TableRow>
+            -->
 
 
 

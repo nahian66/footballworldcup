@@ -73,7 +73,7 @@ public class MatchesFragment extends Fragment {
 
                                 JSONArray jsonArray = response.getJSONArray(""+x );
 
-                                for ( int y=0; y<jsonArray.length(); y++ ){
+                                for ( int y=0; y<=jsonArray.length(); y++ ){
 
                                     JSONObject jsonObject = jsonArray.getJSONObject(y);
                                     String group = jsonObject.getString("group");
